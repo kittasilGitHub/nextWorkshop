@@ -1,0 +1,36 @@
+// install next.js
+npx create-next-app@latest 
+
+// sweetalert2
+// เข้า folder my-app
+npm i sweetalert2
+
+// run project
+// npm run dev
+
+// download AdminLTE
+// https://github.com/ColorlibHQ/AdminLTE/releases/tag/v3.2.0
+// แตกไฟล์แล้ว copy folder: pluging, dist
+// วางลงใน folder : public
+
+// ทำการ copy code จาก index.html ใน AdminLTE
+// ไปใส่ไว้ใน layout.tsx ในส่วนของ return( xxxxx );
+// แก้ไข code 
+// <img ... />  => tag img ปิดด้วย />
+// <link .../>  => tag link ปิดด้วย />
+// <input .../>
+// เอา comment ออก <!-- --!>
+// เอา doctype ออก
+// เปลี่ยน class เป็น className
+// เปลี่ยน style=" xxx " เป็น style={{ xxxx }}
+    // {{ attr1 : 'value' , attr2: 'value' }}
+    // style={{ position: 'relative', height: '300px'}}
+// เอา tag meta ออก
+// <lable for ... > เปลี่ยนเป็น <lable htmlFor ....>
+// <input type="checkbox" ... defaultChecked/>/>
+// value="" => defaultValue=""
+// data-fgColor => data-fgcolor
+
+
+// Day12 (40.55)
+https://drive.google.com/drive/folders/1Nq_3TDWBD4Cb_lfU-YFqmL4XK2ftRYl6
