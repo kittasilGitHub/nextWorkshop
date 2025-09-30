@@ -8,6 +8,20 @@ npm i sweetalert2
 // run project
 // npm run dev
 
+// Git
+// echo "# nextWorkshop" >> README.md    
+// git init  
+// git add . 
+// git commit -m "put AdminLTE (index.html) in layout.tsx " 
+// git branch -M main 
+// git remote add origin https://github.com/kittasilGitHub/nextWorkshop.git
+// git push -u origin main    
+// เมื่อสร้าง repository แล้ว
+// git add .
+// git commit -m "xxxxx"
+// git push -u origin main
+
+
 // download AdminLTE
 // https://github.com/ColorlibHQ/AdminLTE/releases/tag/v3.2.0
 // แตกไฟล์แล้ว copy folder: pluging, dist
@@ -31,6 +45,12 @@ npm i sweetalert2
 // value="" => defaultValue=""
 // data-fgColor => data-fgcolor
 
+// สร้าง folder "backoffice" ใน app
+// ใน  "backoffice" มี page.tsx, layout.tsx
 
-// Day12 (40.55)
+// สร้าง folder "signin" ใน app
+// ใน  "signin" มี page.tsx, layout.tsx
+
+
+// Day13 (40.55)
 https://drive.google.com/drive/folders/1Nq_3TDWBD4Cb_lfU-YFqmL4XK2ftRYl6
