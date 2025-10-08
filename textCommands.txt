@@ -5,6 +5,9 @@ npx create-next-app@latest
 // เข้า folder my-app
 npm i sweetalert2
 
+// ติอตั้ง axios
+// npm i axios
+
 // run project
 // npm run dev
 
@@ -52,5 +55,7 @@ npm i sweetalert2
 // ใน  "signin" มี page.tsx, layout.tsx
 
 
-// Day13 (40.55)
+// สร้างไฟล์ config.tsx ใน app
+
+// Day14
 https://drive.google.com/drive/folders/1Nq_3TDWBD4Cb_lfU-YFqmL4XK2ftRYl6
