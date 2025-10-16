@@ -57,5 +57,7 @@ npm i sweetalert2
 
 // สร้างไฟล์ config.tsx ใน app
 
-// Day14
-https://drive.google.com/drive/folders/1Nq_3TDWBD4Cb_lfU-YFqmL4XK2ftRYl6
+export default {
+    apiServer : 'http://localhost:3001', // backend
+    token : 'mytokenfornextjsproject' // token
+}
